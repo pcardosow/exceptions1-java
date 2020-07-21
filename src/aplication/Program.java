@@ -37,7 +37,7 @@ public class Program {
 
 			String error = reservation.UpdateDate(checkIn, checkOut);
 			if (error != null) {
-				System.out.println("Error in reservation: " + error);
+				System.out.println(error);
 			} 
 			
 			else {
